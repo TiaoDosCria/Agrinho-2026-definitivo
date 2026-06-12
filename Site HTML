@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<link rel="stylesheet" href="style.css">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026 - Campo e Cidade Conectados</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4fdf4;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#2e7d32,#66bb6a);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+nav{
+    background:#1b5e20;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.banner{
+    background:url('https://nutricaodesafras.com.br/wp-content/uploads/2025/11/imagem-85-min.jpg')
+    center/cover;
+    height:400px;
+    border-radius:20px;
+    margin-top:30px;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+.botao{
+    display:inline-block;
+    background:#4caf50;
+    color:white;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    margin-top:20px;
+}
+
+.botao:hover{
+    background:#2e7d32;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Projeto Agrinho 2026</h1>
+    <p>Campo e Cidade: Juntos por um Futuro Sustentável</p>
+    <a href="#sobre" class="botao">Conheça o Projeto</a>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#acoes">Ações</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>
+        O Projeto Agrinho 2026 tem como objetivo promover a conscientização
+        sobre a importância da agricultura, da sustentabilidade e da conexão
+        entre o campo e a cidade. Por meio da educação e da inovação,
+        buscamos construir um futuro melhor para todos.
+    </p>
+
+    <div class="banner"></div>
+</section>
+
+<section id="objetivos">
+    <h2>Objetivos</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🌱 Sustentabilidade</h3>
+            <p>Incentivar práticas sustentáveis para preservar o meio ambiente.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚜 Agricultura</h3>
+            <p>Valorizar o trabalho dos produtores rurais e a produção de alimentos.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏙️ Campo e Cidade</h3>
+            <p>Mostrar como campo e cidade dependem um do outro.</p>
+        </div>
+    </div>
+</section>
+
+<section id="acoes">
+    <h2>Ações do Projeto</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Educação Ambiental</h3>
+            <p>Palestras e atividades educativas sobre preservação da natureza.</p>
+        </div>
+
+        <div class="card">
+            <h3>Horta Escolar</h3>
+            <p>Criação de espaços para cultivo e aprendizagem prática.</p>
+        </div>
+
+        <div class="card">
+            <h3>Tecnologia no Campo</h3>
+            <p>Apresentação de inovações que ajudam na produção agrícola.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Email: victor.cotrin@escola.pr.gov.br</p>
+    <p>Escola Participante: Colégio EStadual 14 de Dezembro</p>
+</section>
+
+<footer>
+    <p>© 2026 Projeto Agrinho - Desenvolvido para fins educacionais.</p>
+</footer>
+
+</body>
+</html>
