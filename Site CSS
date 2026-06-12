@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agrinho 2026 - Campo e Cidade Conectados</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Projeto Agrinho 2026</h1>
+    <p>Campo e Cidade: Juntos por um Futuro Sustentável</p>
+    <a href="sobre" class="botao">Conheça o Projeto</a>
+</header>
+
+<nav>
+    <a href="sobre">Sobre</a>
+    <a href="objetivos">Objetivos</a>
+    <a href="acoes">Ações</a>
+    <a href="contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>
+        O Projeto Agrinho 2026 tem o objetivo de promover a conscientização
+        a sobre a importância da agricultura, da sustentabilidade e da conexão
+        entre o campo e a cidade. Usando da educação como meio de inovação,
+        buscando construir um futuro melhor para todos.
+    </p>
+
+    <div class="banner"></div>
+</section>
+
+<section id="objetivos">
+    <h2>Objetivos</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Sustentabilidade</h3>
+            <p>Incentiva práticas sustentáveis como meio de preservar o meio ambiente.</p>
+        </div>
+        <div class="card">
+            <h3>Agricultura</h3>
+            <p>Valorizar o trabalho dos produtores rurais e a produção de alimentos.</p>
+        </div>
+        <div class="card">
+            <h3>Campo e Cidade</h3>
+            <p>Mostrar como o campo e cidade dependem um do outro.</p>
+        </div>
+    </div>
+</section>
+
+<section id="acoes">
+    <h2>Ações do Projeto</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Educação Ambiental</h3>
+            <p>Palestras e atividades educativas sobre preservação da natureza.</p>
+        </div>
+        <div class="card">
+            <h3>Horta Escolar</h3>
+            <p>Criação de espaços para cultivo e aprendizagem prática.</p>
+        </div>
+        <div class="card">
+            <h3>Tecnologia no Campo</h3>
+            <p>Apresentação de inovações que ajudam na produção agrícola.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Email: victor.cotrin@escola.pr.gov.br</p>
+    <p>Escola Participante: Colégio EStadual 14 de Dezembro</p>
+</section>
+
+<footer>
+    <p>© 2026 Projeto Agrinho - Desenvolvido para fins educacionais.</p>
+</footer>
+
+</body>
+</html>
